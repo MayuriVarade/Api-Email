@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>You got a new email from <%= @email[:sender_email] %>!</p>
+    <p>
+    Message:<br>
+    ----------
+    </p>
+    <p><%= @email[:message] %></p>
+  </body>
+</html>
+
