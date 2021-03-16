@@ -11,7 +11,7 @@ Steps to run the code:
 
 1. CURL for sending emails via SMTP. 
 
-curl --data "sender_name=mayurisupevarade&receiver_email=mayurisupevarade@gmail.com&subject=Lorem Epsum&message=Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." http://localhost:3000/api/v1/email_features/send_email
+curl --data "sender_name=example@gmail.com&receiver_email=example@gmail.com&subject=Lorem Epsum&message=Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." http://localhost:3000/api/v1/email_features/send_email
 
 2. Get the list of message ids via IMAP 
 http://localhost:3000/api/v1/email_features/get_ids?keyword=lorem
