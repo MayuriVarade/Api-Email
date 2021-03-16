@@ -4,7 +4,7 @@ Steps to run the code:
 2. rvm use 2.5.0
 3. bundle install
 4. Set Env variables (https://medium.com/@youngstone89/setting-up-environment-variables-in-mac-os-28e5941c771c)
-		export ADMIN_EMAIL = mayuri.railstest@gmail.com
+		export ADMIN_EMAIL = example@gmail.com
 		export ADMIN_PASSWORD = CA?38b8x%J@dnux
 4. Start server - rails s
 
